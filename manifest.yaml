@@ -1,0 +1,10 @@
+name: UrlAndTitleJsonToClipboard
+version: '1.0'
+manifest_version: 3
+permissions:
+  - activeTab
+  - scripting
+action:
+  default_title: Click to copy URL and title
+background:
+  service_worker: background.js
